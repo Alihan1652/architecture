@@ -48,4 +48,8 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation(libs.koin.android)
+
+    implementation(libs.retrofit)
+    implementation(libs.okhttp)
+    implementation(libs.logging.interceptor)
 }

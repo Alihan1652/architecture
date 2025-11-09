@@ -21,14 +21,17 @@ class CountViewModel(
 
     fun increment(){
         incrementUseCace.increment()
+        getCount()
     }
 
     fun decrement(){
         decrementUseCace.decrement()
+        getCount()
     }
 
     fun resetCount(){
         resetCountUseCace.resetCount()
+        getCount()
     }
 
      private fun getCount(){
